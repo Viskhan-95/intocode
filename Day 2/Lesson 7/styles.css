@@ -1,0 +1,288 @@
+body {
+    width: 1440px;
+    background-color: white;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+/* Заголовок */
+.head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18;
+    font-family: Gilroy;
+    padding: 40px;
+}
+
+.head > .logo {
+    width: 40px;
+    margin-left: 40px;
+}
+
+.head a {
+    padding: 30px;
+}
+
+.head button {
+    width: 150;
+    height: 44px;
+    border: 1px solid #F7941E;
+    color: #F7941E;
+    background: none;
+    text-align: center;
+}
+
+.btn > button:hover {
+    background-color: aqua;
+}
+
+/* Первый div */
+
+.container1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.container1 > .item1 {
+    width: 50%;  
+    background-color: #F1F1F2;
+    padding: 150px 0px;
+}
+
+.container1 > .item1 div {
+    width: 50%;  
+    background-color: #F1F1F2;
+    margin: auto;
+}
+
+.item1 > div  button:hover {
+    background-color: aqua;
+}
+
+.container1 > .item1 div h1{
+    font-size: 48px;
+}
+
+.container1 > .item1 div button{
+    background-color: #F7941E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Второй div */
+
+.container2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.container2 > .item2 {
+    width: 50%;  
+    background-color: #F1F1F2;
+    padding: 150px 0px;
+}
+
+.container2 > .item2 div {
+    width: 50%;  
+    background-color: #F1F1F2;
+    margin: auto;
+}
+
+.container2 > .item2 div h1{
+    font-size: 48px;
+}
+
+.container2 > .item2 div button{
+    color: #F7941E;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #F7941E ;
+    padding: 10px;
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Третий div */
+.center > .text {
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+.center > .text p:first-child {
+    font-size: 32px;
+}
+
+
+.container3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 > .contFoto {
+    background-color: #FAFAFA;
+}
+
+.container3 > .contFoto:hover {
+    background-color: white;
+}
+
+.textFoto > a:last-child {
+    font-size: 14px;
+    margin-top: 60px;
+} 
+
+
+.cont {
+    display: flex;
+    background-color: #F7941E;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.contText {
+    width: 50%;
+    text-align: center;
+}
+
+.contBtn {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.contBtn button {
+    margin: 10px;
+}
+
+.cont div p {
+    font-size: 32px;
+}
+
+.cont div p:first-child {
+    font-weight: bold;
+}
+
+.cont button:first-child{
+    color: white;
+    background-color:#231F20;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cont button:last-child{
+    color: 231F20;
+    background:none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+.container4 {
+    margin: 50px;
+}
+
+.container4 > .text {
+    text-align: center;
+}
+
+.container4 > .text > p:last-child {
+    padding-bottom: 50px;
+    }
+
+.container4 > .text > p:first-child {
+font-size: 32px;
+}
+
+.container4 > .contFoto {
+    display: flex;
+    background-color: #231F20;
+    color: white;
+}
+
+.contFoto > .text > .name {
+    font-size: 14px;
+}
+
+.contFoto > .text > .center {
+    font-size: 48px;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.contFoto > .foto {
+    width: 30%;
+}
+
+.contFoto > .text {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.container4 > .blokText {
+    display: flex;
+    padding: 50px;
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+.blokText > .text {
+    justify-content: space-between;
+}
+
+.container4 > .blokText > .text > p:last-child {
+    font-size: 14px;
+}
+
+.footPages {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footPages > a {
+    margin: 100px;
+}
+
+.line {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footLinks > img {
+    padding: 25px;
+}
+
+.footLinks {
+    text-align: center;
+}
+
+.footer > div:last-child {
+    font-size: 14px;
+    text-align: center;
+}

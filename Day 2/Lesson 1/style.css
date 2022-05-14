@@ -1,0 +1,63 @@
+.container {
+    justify-content: space-evenly;
+    
+}
+
+.head {
+text-align: center;
+}
+
+.body {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .left-cont {
+    width: 20%;
+    }
+
+    .center-cont {
+    width: 60%;
+    margin: 20px;
+    }
+
+    .right-cont {
+    width: 20%;
+    }
+
+.foother {
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.log {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: #8b9dff;
+}
+
+div {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    color: yellow;
+    font-style: italic;
+    text-decoration: none;
+}

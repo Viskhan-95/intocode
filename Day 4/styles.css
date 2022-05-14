@@ -1,0 +1,145 @@
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    .leftBlock {
+        width: 30%;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 2px 1px whitesmoke;
+        border-radius: 10px;
+        border: 3px solid white;
+        display: grid;
+        grid-template-rows: 30% 70%;
+    }
+
+
+    .leftBlock > .containerLogo {
+        display: flex;
+    }
+
+    .leftBlock > .containerLogo > .logo {
+        margin-top: 18px;
+        margin-right: 10px;
+    }
+
+    .mainBlock {
+        margin: auto;
+        width: 35%;
+    }
+
+    .mainBlock > .logo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mainBlock > .isAccaunt {
+        display: flex;
+        justify-content: end;
+        text-decoration: none;
+    }
+
+    .mainBlock > .isAccaunt a{
+        text-decoration: none;
+    }
+
+
+    .mainBlock > .headForm {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .mainBlock > .headForm h1 {
+        font-size: 24px;
+    }
+
+    .mainBlock > .headForm p {
+        font-size: 16px;
+    }
+
+    .mainBlock > .form {
+        font-size: 16;
+        color:gray;
+    }
+
+    .mainBlock > .form input{
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 18px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 15px 0;
+        }
+
+    .mainBlock > .form button{
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        padding: 18px;
+        border-radius: 10px;
+        border-color: blue;
+        margin: 20px 0 0 0;
+        width: 100%;
+        }
+
+        .mainBlock > .form button:hover {
+            box-shadow: 0 0 3px 3px gray;
+            cursor: pointer;
+        }
+
+    .mainBlock > .footer {
+            text-align: center;
+        }
+
+    .footer > .agreement {
+            color: gray;
+            margin-bottom: 40px;
+        }
+
+    p a {
+        text-decoration: none;
+            color: blue;
+        }
+
+
+
+
+/* Адаптив под ноутбук */
+
+    @media screen and (min-width: 1240px) and (max-width: 2440px) {
+        .mainBlock > .logo {
+            display: none;
+        }
+
+        .mainBlock > .form div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mainBlock > .form div input{
+            width: 48%;
+            }
+
+        .footer > .isAccaunt {
+            display: none;
+        }
+    }
+
+
+/* Адаптив под телефон */
+
+    @media screen and (min-width: 240px) and (max-width: 1240px) {
+        .container > .leftBlock {
+            display: none;
+        }
+
+        .container > .mainBlock {
+            width: 100%;
+        }
+
+        .mainBlock > .isAccaunt {
+            display: none;
+        }
+    }
